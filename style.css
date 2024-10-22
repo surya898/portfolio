@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logoimg{
+    height: 200px;
+    width: 200px;
+}
+.navlinks{
+    padding: 40px;
+}
+.navlinks>a{
+    margin-right: 40px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: font-size 1s;
+
+}
+.navlinks>a:hover{
+    font-size: 45px;
+}
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.imgcontainer{
+    position: relative;
+}
+
+#img1 {
+    width: 100%;
+    left: 50px;
+}
+#img2{
+    position: absolute;
+    left: 200px; 
+    width: 60%; 
+    top:10px;
+}
+.desc{
+    padding: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 500px;
+
+}
+#desc>a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    text-decoration: none;
+    top: 300px;
+}
+#username{
+    color: blueviolet;
+}
+#about{
+    padding: 30px;
+}
+#about>h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.abtcontainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#abtimg{
+    width: 100%;
+}
+.aboutinfo{
+    padding-left: 30px;
+}
+.aboutinfo>p{
+    text-align: justify;
+}
+.aboutinfo>ul{
+    margin-top: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
