@@ -7,7 +7,7 @@
     font-style: normal;
 }
 .header{
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 
@@ -45,9 +45,10 @@
 }
 #img2{
     position: absolute;
-    left: 200px; 
-    width: 60%; 
+    left: 300px; 
+    width: 50%; 
     top:10px;
+
 }
 .desc{
     padding: 50px;
